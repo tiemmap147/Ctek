@@ -8,29 +8,9 @@
 <body>
     <div class="drapped"></div>
         <header class="header">
-            <a href="index.html" class="header-logo">
-                <img src="images/cteck1-01.png" class="header-logo-img">
-            </a>
-            <ul>
-                <li class="header-menu-item">
-                    <a href="index.html" class="header-menu-link">Home</a>
-
-                </li>
-
-                <li class="header-menu-item">
-                    <a href="content.html" class="header-menu-link">Product</a>
-                    
-                </li>
-
-                <li class="header-menu-item">
-                    <a href="#" class="header-menu-link">Liên hệ</a>
-                    
-                </li>
-            </ul>
-            <div class="header-account">
-                <a href="#" class="button button-login">Login</a>
-                <a href="#" class="button button-signup">Sign Up</a>
-            </div>
+            <?php
+            include("header.php");
+            ?>
 
 
         </header>
@@ -56,25 +36,25 @@
             <center>
             <ul>
                 <li class="nav-item">
-                    <a href="content.html" class="nav-item-link">prev</a>
+                    <a href="content.php" class="nav-item-link">prev</a>
                 </li>
                 <li class="nav-item">
-                    <a href="content.html" class="nav-item-link">1</a>
+                    <a href="content.php" class="nav-item-link">1</a>
                 </li>
                 <li class="nav-item">
-                    <a href="content.html" class="nav-item-link">2</a>
+                    <a href="content.php" class="nav-item-link">2</a>
                 </li>
                 <li class="nav-item">
-                    <a href="content.html" class="nav-item-link">3</a>
+                    <a href="content.php" class="nav-item-link">3</a>
                 </li>
                 <li class="nav-item">
-                    <a href="content.html" class="nav-item-link">4</a>
+                    <a href="content.php" class="nav-item-link">4</a>
                 </li>
                 <li class="nav-item">
-                    <a href="content.html" class="nav-item-link">5</a>
+                    <a href="content.php" class="nav-item-link">5</a>
                 </li>
                 <li class="nav-item">
-                    <a href="content.html" class="nav-item-link">next</a>
+                    <a href="content.php" class="nav-item-link">next</a>
                 </li>
             </ul>
         </center>
