@@ -15,6 +15,7 @@
 
 
 	</header>
+  <div class="login">
   <form action="/action_page.php" class="container" >
     <div>
     <h1 align ="center">Login</h1>
@@ -32,6 +33,14 @@
   </form>
 
 </div>
+
+<footer class="footer">
+        <?php
+        include("footer.php");
+        ?>
+
+
+    </footer>
 
 </body>
 </html>

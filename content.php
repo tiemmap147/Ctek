@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="CSS/stylecontent.css">
     
 </head>
-<body>
+<body style="background: white">
     <div class="drapped"></div>
         <header class="header">
             <?php
@@ -127,6 +127,7 @@
             </ul>
         </center>
         
+
 
     </div>
     <footer class="footer">

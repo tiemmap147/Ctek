@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="CSS/foter.css">
 <footer>
-        <div class="container">
+        <div class="container1">
             <div class="footer-content">
                 <div class="items">
                     <a href="#" class="logo">Thông tin liên hệ </a>  
