@@ -4,6 +4,7 @@
 	<title>Test 2</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS/stylecontent.css">
+    
 </head>
 <body>
     <div class="drapped"></div>
@@ -125,8 +126,17 @@
                 </li>
             </ul>
         </center>
+        
 
-        </div>
+    </div>
+    <footer class="footer">
+        <?php
+        include("footer.php");
+        ?>
+
+
+    </footer>
+
     
 </body>
 </html>

@@ -1,3 +1,4 @@
+<head><link rel="stylesheet" type="text/css" href="CSS/styleindex.css"></head>
 <a href="index.php" class="header-logo">
     <img src="images/cteck1-01.png" class="header-logo-img">
 </a>
@@ -18,6 +19,8 @@
     </li>
 </ul>
 <div class="header-account">
-    <a href="#" class="button button-login">Login</a>
-    <a href="#" class="button button-signup">Sign Up</a>
+
+    <a href="login.php" class="button button-login">Login</a>
+    <a href="signup.php" class="button button-signup">Sign Up</a>
 </div>
+
