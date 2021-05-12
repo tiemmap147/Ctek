@@ -32,7 +32,74 @@
         </div>
         </center>
         
-        <div class="nav">
+        
+
+        
+        <div class="grid">
+            <a href="#" class="griditem grid_item1" >
+                <!-- <img class="item1" src="ip12.png"> -->
+                <div class="griditem_images"></div>
+                <div class="griditem_label"></div>
+                <div class="griditem_gia"></div>
+            </a>
+            <a href="#" class="griditem grid_item2">
+                <div class="griditem_images"></div>
+                <div class="griditem_label"></div>
+                <div class="griditem_gia"></div>
+            </a>
+            <a href="#" class="griditem grid_item3">
+                <div class="griditem_images"></div>
+                <div class="griditem_label"></div>
+                <div class="griditem_gia"></div>
+                
+            </a>
+            <a href="#" class="griditem grid_item4">
+                <div class="griditem_images"></div>
+                <div class="griditem_label"></div>
+                <div class="griditem_gia"></div>
+            </a>
+            <a href="#" class="griditem grid_item5">
+                <div class="griditem_images"></div>
+                <div class="griditem_label"></div>
+                <div class="griditem_gia"></div>
+            </a>
+            <a href="#" class="griditem grid_item6">
+
+                <div class="griditem_images"></div>
+                <div class="griditem_label"></div>
+                <div class="griditem_gia"></div>
+            </a>
+            <a href="#" class="griditem grid_item7">
+
+                <div class="griditem_images"></div>
+                <div class="griditem_label"></div>
+                <div class="griditem_gia"></div>
+            </a>
+            <a href="#" class="griditem grid_item8">
+                <div class="griditem_images"></div>
+                <div class="griditem_label"></div>
+                <div class="griditem_gia"></div>
+            </a>
+            <a href="#" class="griditem grid_item9">
+                <div class="griditem_images"></div>
+                <div class="griditem_label"></div>
+                <div class="griditem_gia"></div>
+            </a>
+        </div>
+        
+        <!-- <div class="grid2">
+            <a href="#" class="griditem2 grid_item1">item1</a>
+            <a href="#" class="griditem2 grid_item2">item2</a>
+            <a href="#" class="griditem2 grid_item3">item3</a>
+        </div>
+        <div class="grid3">
+            <a href="#" class="griditem3 grid_item1">item1</a>
+            <a href="#" class="griditem3 grid_item2">item2</a>
+            <a href="#" class="griditem3 grid_item3">item3</a>
+        </div> -->
+
+    </div>
+    <div class="nav">
             <center>
             <ul>
                 <li class="nav-item">
@@ -60,33 +127,7 @@
         </center>
 
         </div>
-
-
-        <div class="grid">
-            <a href="#" class="griditem grid_item1" >
-                <!-- <img class="item1" src="ip12.png"> -->
-            </a>
-            <a href="#" class="griditem grid_item2">item2</a>
-            <a href="#" class="griditem grid_item3">item3</a>
-            <a href="#" class="griditem grid_item4">item4</a>
-            <a href="#" class="griditem grid_item5">item5</a>
-            <a href="#" class="griditem grid_item6">item6</a>
-            <a href="#" class="griditem grid_item7">item7</a>
-            <a href="#" class="griditem grid_item8">item8</a>
-            <a href="#" class="griditem grid_item9">item9</a>
-        </div>
-        <!-- <div class="grid2">
-            <a href="#" class="griditem2 grid_item1">item1</a>
-            <a href="#" class="griditem2 grid_item2">item2</a>
-            <a href="#" class="griditem2 grid_item3">item3</a>
-        </div>
-        <div class="grid3">
-            <a href="#" class="griditem3 grid_item1">item1</a>
-            <a href="#" class="griditem3 grid_item2">item2</a>
-            <a href="#" class="griditem3 grid_item3">item3</a>
-        </div> -->
-
-    </div>
+    
 </body>
 </html>
 <script>

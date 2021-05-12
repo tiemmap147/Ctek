@@ -69,8 +69,8 @@ a.header-menu-link:hover{
 
 .grid{
     margin: 56px auto;
-	margin-left: 200px;
-	margin-right: auto;
+	/* margin-left: 200px;
+	margin-right: auto; */
     
     
     display: grid;
@@ -78,7 +78,7 @@ a.header-menu-link:hover{
     /* float: left; */
     width: 68%;
 	grid-template-columns: 250px 250px 250px;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-rows: 350px 350px 350px;
 	grid-column-gap: 100px;
     grid-row-gap: 50px;
 }
@@ -89,7 +89,7 @@ a.header-menu-link:hover{
 	transition: color 0.2s ease-in-out;
     /* padding: 150px; */
     width: 250px;
-    height: 250px;
+    height: 350px;
 	text-align: center;
 	
     
@@ -180,7 +180,7 @@ a.header-menu-link:hover{
     
 }
 .banner_img{
-	height: 500px;
+	height: 80px;
 	width: 100%;
 }
 .item1{
@@ -197,8 +197,9 @@ a.header-menu-link:hover{
 	/* background: #444444; */
 	height: 30px;
 	width: 65%;
+	
     margin-top: -50px;
-    margin-left: 220px;
+    margin-left: 230px;
 	border: 1px solid black;
 	text-align: center;
 	border-radius: 10px;
@@ -227,4 +228,11 @@ a.header-menu-link:hover{
 .drapped{
 	margin: 0 auto;
 	
+}
+.griditem_images{
+	background-color: #CCCCCC;
+	width: 250px;
+	height: 232px;
+	display: block;
+
 }
