@@ -18,6 +18,6 @@
     </li>
 </ul>
 <div class="header-account">
-    <a href="#" class="button button-login">Login</a>
-    <a href="#" class="button button-signup">Sign Up</a>
+    <a href="login.php" class="button button-login">Login</a>
+    <a href="signup.php" class="button button-signup">Sign Up</a>
 </div>
