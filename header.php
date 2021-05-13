@@ -17,7 +17,19 @@
         <a href="#" class="header-menu-link">Liên hệ</a>
         
     </li>
+    
 </ul>
+<div clas="giohang">
+<giohang class="giohang">
+        <?php
+        include("giohang.php");
+        ?>
+
+
+    </giohang>
+</div>
+
+
 <div class="header-account">
 
     <a href="login.php" class="button button-login">Login</a>
