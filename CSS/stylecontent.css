@@ -200,7 +200,8 @@ a.header-menu-link:hover{
 	height: 30px;
 	width: 65%;
 	
-    margin-top: -50px;
+    margin-top: -15px;
+	margin-bottom: 30px;
     margin-left: 230px;
 	border: 1px solid black;
 	text-align: center;
@@ -232,13 +233,13 @@ a.header-menu-link:hover{
 	
 }
 
-.griditem_images{
+/* .griditem_images{
 	background-color: #CCCCCC;
 	width: 250px;
 	height: 232px;
 	display: block;
 
-}
+} */
 
 
 /* Add styles to the form container */
@@ -292,5 +293,8 @@ a.header-menu-link:hover{
   .login{
 	  height: 420px;
 	  width: 100%;
+  }
+  .griditem_label{
+	  margin-top: 10px;
   }
 
