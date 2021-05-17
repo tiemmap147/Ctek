@@ -1,6 +1,5 @@
 body{
-	background: 
-    #EEEEEE;
+	background: white;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -294,7 +293,124 @@ a.header-menu-link:hover{
 	  height: 420px;
 	  width: 100%;
   }
+<<<<<<< HEAD
   .griditem_label{
 	  margin-top: 10px;
   }
+=======
+  /* css detail*/
+  .div-detail{
+	  box-sizing: border-box;
+	  display: block;
+	  height: 800px;
+
+  }
+  .detail{
+	background: gray;
+	height: 450px;
+	width: 400px;
+	margin-top: 200px;
+	margin-left: 15% ;
+	float: left;
+	border-radius: 5px 5px;
+	border: 1px;
+	display: flex;
+}
+
+
+.name{
+	background: gray;
+	height: 50px;
+	width: 600px;
+	margin-top: 200px;
+	margin-left: 5px;
+	float: left;
+	border-radius: 5px 5px;
+	border: 1px solid gray;
+	display: flex;
+}
+.price{
+	background: gray;
+	height: 50px;
+	width: 600px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+	border-radius: 5px 5px;
+	border: 1px solid gray;
+	display: flex;
+}
+.dc{
+	background:gray;
+	height: 320px;
+	width: 600px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+	border-radius: 5px 5px;
+	border: 1px;
+	display: flex;
+}
+.buy{
+	height: 70px;
+	width: 600px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+	border-radius: 5px 5px;
+	border: 1px;
+	display: flex;
+	/* text-decoration: none;
+	text-align: center;
+	font-size: 10; */
+}
+
+.order{
+	background:#E5A300;
+	height: 70px;
+	width: 250px;
+	margin-top:0 ;
+	margin-left: 35px;
+	text-align: center;
+	float: left;
+	border-radius: 10px 10px;
+	border: 2px;
+	opacity: 0.8;
+	
+}
+.addbox	{
+	background:#E5A300;
+	height: 70px;
+	width: 250px;
+	margin-top:0;
+	margin-left: 30px;
+	text-align: center;
+	float: left;
+	border-radius: 10px 10px;
+	border: 2px;
+	opacity: 0.8;
+	
+}
+.addbox:hover{
+	opacity: 1;
+
+}
+.order:hover{
+	opacity: 1;
+}
+.splq{
+	margin-left: 15% ;
+	float: left;
+}
+.order_add{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	display: inline-flex;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+>>>>>>> 5184720d2c29f7e47071fc7bb3a5568723cb7ed9
 
