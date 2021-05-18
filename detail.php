@@ -23,6 +23,9 @@ $kq = mysqli_query($conn,$lenh);
 	</header>
     <center>
     <div class="div-detail">
+
+    
+
         <?php
             while($row = mysqli_fetch_row($kq))
             {
@@ -43,6 +46,7 @@ $kq = mysqli_query($conn,$lenh);
         
     </div>
     
+
         
             
    
