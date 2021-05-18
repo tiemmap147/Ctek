@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test 2</title>
+	<title>Product</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS/stylecontent.css">
+    <link rel="shortcut icon" type="image/png" href="images/cteck1-01.png"/>
     
 </head>
 <body style="background: white">
         <?php
             include("connect.php");
-            $lenh = "select * from dienthoai";
+            $lenh = "select * from dienthoai order by (ten)";
             $kq = mysqli_query($conn,$lenh);
         ?>
     <div class="drapped"></div>
@@ -39,10 +40,11 @@
                             
                             
                             <div class="griditem_images">
-                            <img src=',$row[3],' width=250 height=232>
+                            <img src=',$row[4],' width=250 height=232>
                             </div>
-                            <div class="griditem_label">',$row[1],'</div>
-                            <div class="griditem_gia">',$row[2],'</div>
+                            <div class="griditem_label"><b>',$row[1],'</b></div>
+                            <div class="griditem_gia">',$row[2], ' VNĐ</div>
+                            <div class="griditem_gia_cu"><del>',$row[3], ' VNĐ </del> </div>
                             
                             
                             
