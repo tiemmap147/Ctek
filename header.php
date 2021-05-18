@@ -1,4 +1,6 @@
-<head><link rel="stylesheet" type="text/css" href="CSS/styleindex.css"></head>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/styleindex.css"></head>
+    <link rel="shortcut icon" type="image/png" href="images/cteck1-01.png"/>
 <a href="index.php" class="header-logo">
     <img src="images/cteck1-01.png" class="header-logo-img">
 </a>
