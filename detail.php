@@ -35,7 +35,7 @@ $kq = mysqli_query($conn,$lenh);
                 </div>
                 <div class="name"><h1>',$row[1],'</h1></div>
                 <div class="price"><h2>GIÁ: ',$row[2],'</h2></div>
-                <div class="dc">Mô tả sản phẩm</div>
+                <div class="dc">',$row[6],'</div>
                 <div class="buy">
                     <div class="order"><a href="" class= "order_add">Mua ngay</a> </div>
                     <div class ="addbox"><a href="" class= "order_add">Thêm vào giỏ hàng</a>
