@@ -34,7 +34,7 @@
             while($row = mysqli_fetch_row($kq))
             {
                 echo'
-                    <a href="#" class="griditem grid_item1" >
+                    <a href="detail.php?mdt=',$row[0],'" class="griditem grid_item1" >
                         
                             
                             

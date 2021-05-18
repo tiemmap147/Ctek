@@ -1,0 +1,98 @@
+<script language="JavaScript">
+	function check()
+		{
+			var kt=document.frm;
+		
+				if(kt.txtID.value=="")
+				{
+					alert("Bạn chưa nhập ID");
+					kt.txtID.focus();
+					return false;	
+				}
+				else
+				if(kt.txtTen.value=="")
+				{
+					alert("Bạn chưa nhập tên điện thoại");
+					kt.txtTen.focus();
+					return false;	
+				}
+                else
+				if(kt.txtGia.value=="")
+				{
+					alert("Bạn chưa nhập giá");
+					kt.txtGia.focus();
+					return false;	
+				}
+                else
+				if(kt.txtHang.value=="")
+				{
+					alert("Bạn chưa nhập hãng");
+					kt.txtHang.focus();
+					return false;	
+				}
+                else
+				if(kt.txtAnh.value=="")
+				{
+					alert("Bạn chưa nhập link ảnh");
+					kt.txtAnh.focus();
+					return false;	
+				}
+                else
+				if(kt.txtMota.value=="")
+				{
+					alert("Bạn chưa nhập mô tả");
+					kt.Mota.focus();
+					return false;	
+				}
+				
+		}
+</script>
+<html>
+<head>
+    <title>
+        Thêm Sản Phẩm
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styleadmin.css">
+</head>
+<body> 
+    <div class="menu-left">
+    <a href="index.php" class="header-logo">
+        <img src="../images/cteck1-01.png" class="header-logo-img">
+    </a>
+
+    <ul>
+        <li class="admin-menu-item">
+            <a href="admin.php" class="admin-menu-link">DATA</a>
+        </li>
+
+        <li class="admin-menu-item">
+            <a href="inputsp.html" class="admin-menu-link">Thêm dữ liệu</a>
+        </li>
+
+        <li class="admin-menu-item">
+            <a href="#" class="admin-menu-link">Xoá dữ liệu</a>
+        </li>
+
+        <li class="admin-menu-item">
+            <a href="#" class="admin-menu-link">Chỉnh sửa</a>
+        </li>
+    </ul>
+    </div>
+    <div class="admin-content">
+        <form class="frm-input" name=frm action=them.php method="post" onSubmit="return check()" >
+            ID <input type="text" name="txtID" id="" class="frm-item"><br>
+            Tên  <input type="text" name="txtTen" id="" class="frm-item"><br>
+            Giá<input type="text" name="txtGia" id="" class="frm-item"><br>
+			Hãng<input type="text" name="txtHang" id="" class="frm-item"><br>
+            Ảnh <input type="text" name="txtAnh" id="" class="frm-item"><br>
+            Mô tả <input type="text" name="txtMota" id="" class="frm-item"><br>
+            Ngày thêm <input type="date" id="" name="txtNgaythem" class="frm-item"
+            value="2021-05-18"><br>
+			<input type="submit" value="Submit" onClick=check() class="submit"><br>
+
+    </form>
+        
+    </div>
+</body>
+</html>

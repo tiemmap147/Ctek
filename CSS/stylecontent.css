@@ -96,17 +96,11 @@ a.header-menu-link:hover{
     
 }
 .grid_item1{
-    background-color: black;
+    background-color:floralwhite;
     
 }
-.grid_item2{
-    background-color: green;
-    /* margin-left: 50px; */
-}
-.grid_item3{
-    background-color: blue;
-    /* margin-left: 50px; */
-}
+
+
 .grid2{
     margin-top: 50px;
     margin-left: 150px;
@@ -293,21 +287,22 @@ a.header-menu-link:hover{
 	  height: 420px;
 	  width: 100%;
   }
-<<<<<<< HEAD
+
   .griditem_label{
 	  margin-top: 10px;
   }
-=======
+
   /* css detail*/
   .div-detail{
 	  box-sizing: border-box;
 	  display: block;
 	  height: 800px;
+	  margin-bottom: 20px;
 
   }
   .detail{
 	background: gray;
-	height: 450px;
+	height: 400px;
 	width: 400px;
 	margin-top: 200px;
 	margin-left: 15% ;
@@ -319,7 +314,7 @@ a.header-menu-link:hover{
 
 
 .name{
-	background: gray;
+	background:#FFFAFA;
 	height: 50px;
 	width: 600px;
 	margin-top: 200px;
@@ -330,7 +325,7 @@ a.header-menu-link:hover{
 	display: flex;
 }
 .price{
-	background: gray;
+	background:#FFFAFA;
 	height: 50px;
 	width: 600px;
 	margin-top: 5px;
@@ -341,8 +336,8 @@ a.header-menu-link:hover{
 	display: flex;
 }
 .dc{
-	background:gray;
-	height: 320px;
+	background:#FFFAFA;
+	height: 220px;
 	width: 600px;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -350,6 +345,7 @@ a.header-menu-link:hover{
 	border-radius: 5px 5px;
 	border: 1px;
 	display: flex;
+	border: 1px solid gray;
 }
 .buy{
 	height: 70px;
@@ -412,5 +408,5 @@ a.header-menu-link:hover{
 	padding-top: 15px;
 	padding-bottom: 20px;
 }
->>>>>>> 5184720d2c29f7e47071fc7bb3a5568723cb7ed9
+
 
