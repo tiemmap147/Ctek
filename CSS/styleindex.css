@@ -92,7 +92,7 @@ a.header-signup:hover{
 	margin-top: 300px;
 }
 .item2{
-	background: #262729;
+	background-image: url("../images/banner3.jpg");
 	display: flex;
 	float: left;
 	width: 300px;
@@ -101,7 +101,9 @@ a.header-signup:hover{
 	margin-left: 30px; 
 }
 .item3{
-	background: #403f44;
+	background-image: url("../images/banner1.jpg");
+	background-position-x: -15px;
+	background-position-y: -150px;
 	display: flex;
 	float: left;
 	width: 300px;
@@ -110,7 +112,7 @@ a.header-signup:hover{
 	margin-left: 10px; 
 }
 .item4{
-	background: #403f44;
+	background-image: url("../images/banner2.jpg");
 	display: flex;
 	float: left;
 	width: 300px;
@@ -118,6 +120,8 @@ a.header-signup:hover{
 	margin-top: 90px;
 	margin-left: 10px; 
 	margin-right: 10px;
+	background-position-x: 27px;
+	background-position-y: -450px;
 }
 * {
     box-sizing: border-box;
