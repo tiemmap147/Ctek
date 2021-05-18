@@ -38,12 +38,8 @@ $kq = mysqli_query($conn,$lenh);
                 
 
                 <div class="price"><h2>GIÁ: ',$row[2],' VNĐ</h2></div>
-<<<<<<< HEAD
                 <div class="dc">',$row[7],'</div>
-=======
 
-                <div class="dc">',$row[6],'</div>
->>>>>>> f815c6cf9f9e2eceeda768c22e0381fd0b1689eb
                 <div class="buy">
                     <div class="order"><a href="" class= "order_add">Mua ngay</a> </div>
                     <div class ="addbox"><a href="" class= "order_add">Thêm vào giỏ hàng</a>
