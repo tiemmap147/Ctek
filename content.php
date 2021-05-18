@@ -10,7 +10,7 @@
 <body style="background: white">
         <?php
             include("connect.php");
-            $lenh = "select * from dienthoai";
+            $lenh = "select * from dienthoai order by (ten)";
             $kq = mysqli_query($conn,$lenh);
         ?>
     <div class="drapped"></div>
