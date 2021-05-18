@@ -23,6 +23,18 @@
     
         <center>
         <div class="banner">
+
+
+
+        <banner class="banner">
+            <?php
+            include("banner.php");
+            ?>
+
+
+        </banner>
+
+
         </div>
         </center>
         
