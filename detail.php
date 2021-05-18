@@ -8,6 +8,12 @@
     <link rel="stylesheet" type="text/css" href="CSS/stylecontent.css">
 </head>
 <body style="background: white">
+<?php
+$msdienthoai = $_GET["mdt"];
+include("connect.php");
+$lenh = "select * from dienthoai where id = '$msdienthoai'";
+$kq = mysqli_query($conn,$lenh);
+?>
     <header class="header">
 		<?php
 		include("header.php");
@@ -17,15 +23,30 @@
 	</header>
     <center>
     <div class="div-detail">
-            <div class="detail"></div>
-            <div class="name"><h1>name</h1></div>
-            <div class="price"><h2>Giá</h2></div>
-            <div class="dc">Mô tả sản phẩm</div>
-            <div class="buy">
-                <div class="order"><a href="" class= "order_add">Mua ngay</a> </div>
-                <div class ="addbox"><a href="" class= "order_add">Thêm vào giỏ hàng</a>
-            </div>
+
+    
+
+        <?php
+            while($row = mysqli_fetch_row($kq))
+            {
+                echo'
+                <div class="detail">
+                <img src=',$row[3],'>
+                </div>
+                <div class="name"><h1>',$row[1],'</h1></div>
+                <div class="price"><h2>GIÁ: ',$row[2],'</h2></div>
+                <div class="dc">Mô tả sản phẩm</div>
+                <div class="buy">
+                    <div class="order"><a href="" class= "order_add">Mua ngay</a> </div>
+                    <div class ="addbox"><a href="" class= "order_add">Thêm vào giỏ hàng</a>
+                </div>';
+            }
+        ?>
+        
+        
     </div>
+    
+
         
             
    
