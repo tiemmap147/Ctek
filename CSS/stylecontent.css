@@ -92,9 +92,17 @@ a.header-menu-link:hover{
     height: 350px;
 
 	text-align: center;
+
 	
     
 }
+.griditem:hover{
+	margin-top: -20px;
+	
+}
+	
+
+
 .grid_item1{
     background-color: black;
     
