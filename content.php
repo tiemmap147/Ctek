@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test 2</title>
+	<title>Product</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS/stylecontent.css">
+    <link rel="shortcut icon" type="image/png" href="images/cteck1-01.png"/>
     
 </head>
 <body style="background: white">
