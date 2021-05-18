@@ -34,7 +34,11 @@ $kq = mysqli_query($conn,$lenh);
                 <img src=',$row[3],'>
                 </div>
                 <div class="name"><h1>',$row[1],'</h1></div>
+<<<<<<< HEAD
                 <div class="price"><h2>GIÁ: ',$row[2],'</h2></div>
+=======
+                <div class="price"><h2>GIÁ: ',$row[2],' VNĐ</h2></div>
+>>>>>>> 01d9d3512bc3e95442721c6c4b573bab0a62bdae
                 <div class="dc">',$row[6],'</div>
                 <div class="buy">
                     <div class="order"><a href="" class= "order_add">Mua ngay</a> </div>
