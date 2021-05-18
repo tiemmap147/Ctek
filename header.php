@@ -14,7 +14,7 @@
     </li>
 
     <li class="header-menu-item">
-        <a href="#" class="header-menu-link">Liên hệ</a>
+        <a href="lienhe.php" class="header-menu-link">Liên hệ</a>
         
     </li>
     
