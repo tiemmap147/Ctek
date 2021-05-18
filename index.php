@@ -15,7 +15,7 @@
 	</header>
 	<div class="content">
 		<div class="content item1">Welcome To Ctek</div>
-		<a href="#"><div class="content item2"></div></a>
+		<a href="#"><div class="content item2"><img src="images/iphone_12_01.jpg" alt=""></div></a>
 		<a href="#"><div class="content item3"></div></a>
 		<a href="#"><div class="content item4"></div></a>
 
