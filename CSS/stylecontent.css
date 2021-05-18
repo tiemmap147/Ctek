@@ -84,7 +84,8 @@ a.header-menu-link:hover{
 .griditem{
     text-decoration-style: none;
 	text-decoration-line: none;
-	color: #CCCCCC;
+	color: black;
+	
 	transition: color 0.2s ease-in-out;
     /* padding: 150px; */
     width: 250px;
@@ -104,8 +105,12 @@ a.header-menu-link:hover{
 
 
 .grid_item1{
-    background-color:floralwhite;
+    background-color:#F7F7F7;
     
+}
+.griditem_gia_cu{
+	color:red;
+	font-size:13px ;
 }
 
 
@@ -328,7 +333,7 @@ a.header-menu-link:hover{
 }
 .dc{
 	background:#FFFAFA;
-	height: 220px;
+	height: 300px;
 	width: 600px;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -337,12 +342,14 @@ a.header-menu-link:hover{
 	border: 1px;
 	display: flex;
 	border: 1px solid gray;
+	text-align: left;
+	
 }
 .buy{
 	height: 70px;
 	width: 600px;
-	margin-top: 5px;
-	margin-left: 5px;
+	margin-top: 10px;
+	margin-left: 610px;
 	float: left;
 	border-radius: 5px 5px;
 	border: 1px;

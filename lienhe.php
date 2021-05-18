@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="CSS/lienhe.css">
+    <link rel="shortcut icon" type="image/png" href="images/cteck1-01.png"/>
 </head>
 <body>
 
@@ -21,8 +22,8 @@
 
         <div class="main-content">
         <h3>Liên Hệ</h3>
-        <p>Mọi thắc mắc quý khách hàng vui lòng liên hệ số điện thoại 028xxx hoặc gọi cho chúng tôi vào Hotline 999999999.</p>
-        <p1>Tốt nhất là qua cửa hàng dưới bản phía dưới nhé !</p1>
+        <p>Mọi thắc mắc quý khách hàng vui lòng liên hệ số điện thoại 2302281519 hoặc Hotline 1800.1060.</p>
+        <p1>Tốt nhất là qua cửa hàng dưới bản phía dưới nhé!</p1>
     </div>
     
     <div class="map">

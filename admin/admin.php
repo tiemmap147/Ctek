@@ -13,7 +13,7 @@
             $kq = mysqli_query($conn,$lenh);
         ?>    
     <div class="menu-left">
-    <a href="index.php" class="header-logo">
+    <a href="../index.php" class="header-logo">
         <img src="../images/cteck1-01.png" class="header-logo-img">
     </a>
 
@@ -41,8 +41,8 @@
             {
                 echo'
         <div class="list-content">
-       
-            <div class="images"><img src=../',$row[3],' width=100 height=115></div>
+            <div class="ID">',$row[0],'</div>
+            <div class="images"><img src=../',$row[4],' width=100 height=115></div>
             <div class="label">',$row[1],'</div>
             <div class="gia">',$row[2],'</div>
             <div class="soluong"></div>
