@@ -1,0 +1,46 @@
+.admin-menu-item{
+    margin-top: 30%;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    float:inline-start;
+}
+.admin-menu-link{
+    text-decoration-style: none;
+	text-decoration-line: none;
+    color: black;
+    
+}
+.menu-left{
+    display: block;
+    width: 25%;
+    height: 100%;
+    background-color: aquamarine;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0;
+    float:left;
+    border-style: solid;
+    
+}
+.admin-content{
+    margin-top: 0px;
+    display: block;
+    width: 74%;
+    height: 100%;
+    background-color: cornflowerblue;
+    float:left
+
+}
+.header-logo{
+	display: block;
+	margin-right: 280px;
+}
+.header-logo-img{
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+
+}
