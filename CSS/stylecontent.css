@@ -409,12 +409,16 @@ a.header-menu-link:hover{
 	margin-left: 80%;
 	display: block;
 	float: left;
+	border-radius: 10px;
+	border:darkgrey solid 2px;
 }
 .btn-tim{
 	display: inline-block;
 	float: left;
 	width: 55px;
 	height: 30px;
+	border-radius: 10px;
+	border:darkgrey;
 }
 
 
