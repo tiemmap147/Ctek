@@ -39,6 +39,7 @@
     </title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styleadmin.css">
+    <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 </head>
 <body> 
     <div class="menu-left">
@@ -73,6 +74,9 @@
 			Hãng<input type="text" name="txtHang" value="<?php echo $data['hang']?>" class="frm-item"><br>
             Ảnh <input type="text" name="txtAnh" value="<?php echo $data['anh']?>" class="frm-item"><br>
             Mô tả <textarea rows="15" cols="66" name="txtMota" form="formSua"  ><?php echo $data['mota']?></textarea>
+            <script>
+	            CKEDITOR.replace("txtMota");
+            </script>
             <!-- <input type="textare" name="txtMota" value="" class="frm-item"><br> -->
             Ngày thêm <input type="date" value="<?php echo $data['ngaythem']?>" name="txtNgaythem" class="frm-item"
             ><br>

@@ -37,13 +37,7 @@
 					kt.txtAnh.focus();
 					return false;	
 				}
-                else
-				if(kt.txtMota.value=="")
-				{
-					alert("Bạn chưa nhập mô tả");
-					kt.Mota.focus();
-					return false;	
-				}
+
 				
 		}
 </script>
@@ -54,6 +48,7 @@
     </title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styleadmin.css">
+	<script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 </head>
 <body> 
     <div class="menu-left">
@@ -80,13 +75,17 @@
     </ul>
     </div>
     <div class="admin-content">
-        <form class="frm-input" name=frm action=them.php method="post" onSubmit="return check()" >
+        <form class="frm-input" name=frm action=them.php method="post" onSubmit="return check()"=>
             ID <input type="text" name="txtID" id="" class="frm-item"><br>
             Tên  <input type="text" name="txtTen" id="" class="frm-item"><br>
             Giá<input type="text" name="txtGia" id="" class="frm-item"><br>
+			Giá cũ<input type="text" name="txtGiacu" id="" class="frm-item"><br>
 			Hãng<input type="text" name="txtHang" id="" class="frm-item"><br>
             Ảnh <input type="text" name="txtAnh" id="" class="frm-item"><br>
-            Mô tả <input type="text" name="txtMota" id="" class="frm-item"><br>
+			Mô tả <textarea rows="10" cols="66" name="txtMota"  ></textarea>
+            <script>
+	            CKEDITOR.replace("txtMota");
+            </script>
             Ngày thêm <input type="date" id="" name="txtNgaythem" class="frm-item"
             value="2021-05-18"><br>
 			<input type="submit" value="Submit" onClick=check() class="submit"><br>
