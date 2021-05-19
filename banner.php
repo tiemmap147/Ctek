@@ -11,12 +11,12 @@
   </div>
  
   <div class="mySlides fade2">
-    <img src="./images/banner.jpg"  style ="width: 100%"  >
+    <img src="./images/banner.jpg"    >
     
   </div>
  
   <div class="mySlides fade3">
-    <img src="./images/bannerip2.jpg"  style ="width: 100%">
+    <img src="./images/bannerip2.jpg"  >
    
   </div>
 </div>
