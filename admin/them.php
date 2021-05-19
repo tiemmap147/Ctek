@@ -13,13 +13,14 @@ include("../connect.php");
 
     if(mysqli_query($conn, $sql)){
 
-        echo "Nhap thanh cong !.";
-        echo '<a href="admin.php">Back</a>';
+        mysqli_close($conn); 
+        header("location:admin.php"); 
+        exit;
 
     } else{
 
         echo "Khong the thuc thi cau lenh $sql. " . mysqli_error($conn);
 
     }
-    mysqli_close($conn);
+    
 ?>

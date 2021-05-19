@@ -17,8 +17,8 @@
         $sql= "UPDATE dienthoai SET ten='$ten', gia=$gia,giacu=$giacu,hang='$hang',anh='$anh',mota='$mota',ngaythem='$ngaythem' WHERE id=$id ";
         if(mysqli_query($conn, $sql)){
 
-            mysqli_close($conn); // Close connection
-            header("location:admin.php"); // redirects to all records page
+            mysqli_close($conn);
+            header("location:admin.php"); 
             exit;	
         
         } else{

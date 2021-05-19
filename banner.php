@@ -6,7 +6,7 @@
 <div class="slideshow-container">
  
   <div class="mySlides fade1">
-    <img src="./images/bannerip.jpg"  >
+    <img src="./images/bannerip12.jpg"  >
     
   </div>
  
