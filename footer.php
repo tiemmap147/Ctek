@@ -16,11 +16,11 @@
                 <div class="items">
                     <h3> Hỗ Trợ </h3>
                     <ul>
-                        <li><a href="#">Quy định sử dụng</a></li>
-                        <li><a href="#">Hướng dẫn thanh toán</a></li>
-                        <li><a href="#">Chính sách bảo mật </a></li>
-                        <li><a href="#">Chính sách bảo hành</a></li>
-                        <li><a href="#">Thông tin chủ website</a></li>
+                        <li><a href="lienhe.php">Quy định sử dụng</a></li>
+                        <li><a href="lienhe.php">Hướng dẫn thanh toán</a></li>
+                        <li><a href="lienhe.php">Chính sách bảo mật </a></li>
+                        <li><a href="lienhe.php">Chính sách bảo hành</a></li>
+                        <li><a href="lienhe.php">Thông tin chủ website</a></li>
                         
                     </ul>                          
                 </div>
