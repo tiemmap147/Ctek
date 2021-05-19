@@ -10,8 +10,10 @@
 <body style="background: white">
         <?php
             include("connect.php");
-            $lenh = "select * from dienthoai order by (ten)";
+            $ten=@$_POST["ten"];
+            $lenh="select * from dienthoai where ten like '%$ten%'";
             $kq = mysqli_query($conn,$lenh);
+            $n = mysqli_num_rows($kq);
         ?>
     <div class="drapped"></div>
     
@@ -81,32 +83,7 @@
         
 
     </div>
-    <div class="nav">
-            <center>
-            <ul>
-                <li class="nav-item">
-                    <a href="content.php" class="nav-item-link">prev</a>
-                </li>
-                <li class="nav-item">
-                    <a href="content.php" class="nav-item-link">1</a>
-                </li>
-                <li class="nav-item">
-                    <a href="content.php" class="nav-item-link">2</a>
-                </li>
-                <li class="nav-item">
-                    <a href="content.php" class="nav-item-link">3</a>
-                </li>
-                <li class="nav-item">
-                    <a href="content.php" class="nav-item-link">4</a>
-                </li>
-                <li class="nav-item">
-                    <a href="content.php" class="nav-item-link">5</a>
-                </li>
-                <li class="nav-item">
-                    <a href="content.php" class="nav-item-link">next</a>
-                </li>
-            </ul>
-        </center>
+    
         
 
 

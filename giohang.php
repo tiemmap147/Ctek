@@ -1,4 +1,8 @@
+
+
+
 <link rel="stylesheet" href="CSS/giohang.css">
+
 
 <nav>
 
@@ -15,8 +19,8 @@
                     </div>
                     <div class="modal-body">
                         <div class="cart-row">
-                            <span class="cart-item ">Sản Phẩm</span>
-                            <span class="cart-price ">Giá</span>
+                            <span class="cart-item "></span>
+                            <span class="cart-price "></span>
                             <span class="cart-quantity ">Số Lượng</span>
                         </div>
                         <div class="cart-items">
