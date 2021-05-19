@@ -42,10 +42,16 @@
                 echo'
         <div class="list-content">
             <div class="ID">',$row[0],'</div>
-            <div class="images"><img src=../',$row[3],' width=100 height=115></div>
+            <div class="images"><img src=../',$row[4],' width=100 height=115></div>
             <div class="label">',$row[1],'</div>
             <div class="gia">',$row[2],'</div>
             <div class="soluong"></div>
+            <div class="xoa">
+                <a href="xoa.php?id=',$row[0],'">XOÁ</a>
+            </div>
+            <div class="sua">
+                <a href="sua.php?id=',$row[0],'">SỬA</a>
+            </div>
         </div>';
             }
         ?>

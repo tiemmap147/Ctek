@@ -39,7 +39,9 @@ $kq = mysqli_query($conn,$lenh);
 
                 <div class="price"><h2>GIÁ: ',$row[2],' VNĐ</h2></div>
 
+
                 <div class="dc">',$row[7],'</div>
+
 
 
                 <div class="buy">
