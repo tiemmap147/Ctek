@@ -46,7 +46,7 @@ $kq = mysqli_query($conn,$lenh);
 
                 <div class="buy">
                     <div class="order"><a href="" class= "order_add">Mua ngay</a> </div>
-                    <div class ="addbox"><a href="giohang.php?id=',$msdienthoai,'" class= "order_add">Thêm vào giỏ hàng</a>
+                    <div class ="addbox"><a href="" class= "order_add">Thêm vào giỏ hàng</a>
                 </div>';
             }
         ?>

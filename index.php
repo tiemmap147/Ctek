@@ -16,11 +16,11 @@
 	</header>
 	<div class="content">
 		<div class="content item1">Welcome To Ctek</div>
-		<a href="#"><div class="content item2">
+		<a href="detail.php?mdt=1"><div class="content item2">
 			</div></a>
-		<a href="#"><div class="content item3">
+		<a href="detail.php?mdt=11"><div class="content item3">
 			</div></a>
-		<a href="#"><div class="content item4">
+		<a href="detail.php?mdt=12"><div class="content item4">
 			</div></a>
 
 	</div>
