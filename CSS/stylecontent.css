@@ -232,7 +232,7 @@ a.header-menu-link:hover{
 
 
 /* Add styles to the form container */
-.container {
+ .container {
 	position: static;
 	right: 35%;	
 	left: 35%;
@@ -271,7 +271,7 @@ a.header-menu-link:hover{
   .login{
 	  height: 420px;
 	  width: 100%;
-  }
+  } 
 
   .griditem_label{
 	  margin-top: 10px;
